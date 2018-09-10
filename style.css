@@ -1,0 +1,494 @@
+/*RESET CSS*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 85%;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+
+/*                     TABLETS                        */
+@media screen and (max-width: 750px){
+
+/*HEADER*/
+	header{
+		height: 250px;
+		text-align: center;
+		margin-bottom: 1%;
+		border-bottom: 2px dashed #20B2AA;
+	}
+
+	header img {
+		width: 20%;
+		height: 20%;
+		border-radius: 50%;
+	}
+
+	header h1 {
+		margin: 0.5%;
+		text-align: center;
+	}
+
+	header p{
+		font-size: 1.3em;
+	}
+
+/*MAIN E BLOCOS*/
+	main{
+		
+		height: 100%;
+		margin-bottom: 1%;
+	}
+
+	h2{
+		margin-bottom: 6%;
+		text-align: center;
+	}
+
+
+	.bloco1{
+		width: 90%;
+		height: 100%;
+		border: 1px dashed #DCDCDC;
+		padding: 2%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.bloco2{
+		width: 90%;
+		height: 100%;
+		border: 1px dashed #DCDCDC;
+		padding: 2%;
+		margin: 2% auto;
+		text-align: center;
+	}
+
+	.bloco3{
+		margin-top: -5%;
+		width: 100%;
+	}
+
+	.bloco{
+		width: 100%;
+		height: 250px;
+	}
+
+	.bloco li{
+		text-decoration: none;
+	}
+
+/*ICONE E BARRAS*/
+	.fab{
+		color: #20B2AA;
+	}
+
+	a{
+		text-decoration: none;
+		color: #000;
+	}
+
+	a:hover{
+		color: #20B2AA;
+	}
+
+
+	.lista-barras li{
+		width: 90%;
+		margin: 10px auto;
+
+	}
+
+	.barra-texto{
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		font-style: italic;
+		font-size: 0.8em;
+	}	
+
+	#barra{
+		display: inline-block;
+		float: right;
+		width: 70%;
+		height: 20px;
+		background-color: #DCDCDC;
+		border-radius: 5px;
+		margin-top: 1.5px;
+		box-shadow: 4px 4px #888;
+	}
+
+	#progresso-html-node{
+		width: 90%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-js{
+		width: 70%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-sass-css{
+		width: 87%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-python-php{
+		width: 65%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-ruby-java{
+		width: 80%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+}
+
+/*                      DESKTOP                       */
+@media screen and (max-width: 970px) and (min-width: 750px){
+
+/*HEADER*/
+	header{
+		height: 350px;
+		text-align: center;
+		margin-bottom: 1%;
+		border-bottom: 2px dashed #20B2AA;
+	}
+
+	header img {
+		width: 20%;
+		height: 20%;
+		border-radius: 50%;
+	}
+
+	header h1 {
+		margin: 0.5%;
+		text-align: center;
+	}
+
+	header p{
+		font-size: 1.5em;
+	}
+
+/*MAIN E BLOCOS*/
+	main{
+		
+		height: 600px;
+		margin-bottom: 5%;
+	}
+
+	h2{
+		margin-bottom: 6%;
+		text-align: center;
+	}
+
+
+	.bloco1{
+		width: 25%;
+		height: 100%;
+		float: left;
+		border: 1px dashed #DCDCDC;
+		padding: 2%;
+	}
+
+	.bloco2{
+		width: 64%;
+		height: 100%;
+		float: left;
+		margin-left: 2%;
+		border: 1px dashed #DCDCDC;
+		padding: 2%;
+	}
+
+	.bloco-aux {
+		width: 50%;
+		height: 100%;
+		float: left;
+		margin-right: 0.7%;
+	}
+
+	.bloco3{
+		width: 45%;
+		float: right;
+		height: 100%;
+	}
+
+	.bloco{
+		width: 100%;
+		height: 250px;
+	}
+
+	.bloco li{
+		text-decoration: none;
+		margin: 10px 0 10px 0;
+	}
+
+/*ICONE E BARRAS*/
+	.fab{
+		color: #20B2AA;
+	}
+
+	a{
+		text-decoration: none;
+		color: #000;
+	}
+
+	a:hover{
+		color: #20B2AA;
+	}
+
+
+	.lista-barras li{
+		width: 90%;
+		margin: 10px auto;
+
+	}
+
+	.barra-texto{
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		font-style: italic;
+		font-size: 0.8em;
+	}	
+
+	#barra{
+		display: inline-block;
+		float: right;
+		width: 70%;
+		height: 20px;
+		background-color: #DCDCDC;
+		border-radius: 5px;
+		margin-top: 1.5px;
+		box-shadow: 4px 4px #888;
+	}
+
+	#progresso-html-node{
+		width: 90%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-js{
+		width: 70%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-sass-css{
+		width: 87%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-python-php{
+		width: 65%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-ruby-java{
+		width: 80%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+
+}
+
+/*                  TELAS GRANDES                     */
+@media screen and (min-width: 970px){
+	
+/*HEADER*/
+	header{
+		height: 350px;
+		text-align: center;
+		margin-bottom: 1%;
+		border-bottom: 2px dashed #20B2AA;
+	}
+
+	header img {
+		width: 20%;
+		height: 20%;
+		border-radius: 50%;
+	}
+
+	header h1 {
+		margin: 0.5%;
+		text-align: center;
+	}
+
+	header p{
+		font-size: 1.5em;
+	}
+
+/*MAIN E BLOCOS*/
+	main{
+		
+		height: 550px;
+		margin-bottom: 5%;
+	}
+
+	h2{
+		margin-bottom: 6%;
+		text-align: center;
+	}
+
+
+	.bloco1{
+		width: 25%;
+		float: left;
+		height: 100%;
+		border: 1px dashed #DCDCDC;
+		padding: 2%;
+	}
+
+	.bloco2{
+		width: 64%;
+		height: 100%;
+		float: left;
+		margin-left: 2%;
+		border: 1px dashed #DCDCDC;
+		padding: 2%;
+	}
+
+	.bloco-aux {
+		width: 50%;
+		height: 100%;
+		float: left;
+		margin-right: 0.7%;
+	}
+
+	.bloco3{
+		width: 45%;
+		float: right;
+		height: 100%;
+	}
+
+	.bloco{
+		width: 100%;
+		height: 250px;
+	}
+
+	.bloco li{
+		text-decoration: none;
+		margin: 10px 0 10px 0;
+	}
+
+/*ICONE E BARRAS*/
+	.fab{
+		color: #20B2AA;
+	}
+
+	a{
+		text-decoration: none;
+		color: #000;
+	}
+
+	a:hover{
+		color: #20B2AA;
+	}
+
+
+	.lista-barras li{
+		width: 90%;
+		margin: 10px auto;
+
+	}
+
+	.barra-texto{
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		font-style: italic;
+		font-size: 0.9em;
+	}	
+
+	#barra{
+		display: inline-block;
+		float: right;
+		width: 70%;
+		height: 20px;
+		background-color: #DCDCDC;
+		border-radius: 5px;
+		margin-top: 1.5px;
+		box-shadow: 4px 4px #888;
+	}
+
+	#progresso-html-node{
+		width: 90%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-js{
+		width: 70%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-sass-css{
+		width: 87%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-python-php{
+		width: 65%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+	#progresso-ruby-java{
+		width: 80%;
+		height: 19px;
+		background-color: #20B2AA;
+		border-radius: 5px 0 0 5px;
+		margin-top: 1.5px;
+	}
+
+
+}
+
